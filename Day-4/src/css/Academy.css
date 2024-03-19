@@ -1,0 +1,35 @@
+/* Academy.css */
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table data cells */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for actions buttons */
+button {
+  padding: 10px 20px; /* Adjusted padding for button width */
+  margin-right: 5px;
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green when hovering */
+}
