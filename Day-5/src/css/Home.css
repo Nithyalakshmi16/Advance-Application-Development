@@ -1,0 +1,107 @@
+/* Home.css */
+
+.homeimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.overlay
+{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:-1;
+}
+.quotes
+{
+   
+    bottom: -2%;
+    position: absolute;
+    font-weight: bolder;
+    color: white;
+    left: 2%;
+    font-size: 70px; 
+}
+
+.quotesdefinition
+{
+  font-size: 35px;
+  bottom: -4%;
+  position: absolute;
+  font-weight: initial;
+  color: white;
+  left: 9%;
+}
+.container{
+  display: flex;
+  margin-top: 35%;
+ 
+}
+.contain{
+  margin: 20px;
+  padding: 5PX;
+  border: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  width: 10%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 500px; /* Adjust margin-top as needed */
+  right: 10%;
+}
+
+.contain 
+
+{
+  margin: 60px;
+  padding: 10px;
+  width: 40%; /* Adjust width as needed */
+  position: relative;
+
+}
+
+.onlineclass 
+{
+  width: 40%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  left: -130px;
+  position: relative;
+}
+  
+.contain p {
+  font-size: 15px;
+  color: #333; 
+  position: absolute;
+  bottom: 190px;
+  left:75px;
+  width: 100%; 
+  line-height: 1.5;
+}
+.join-onlineclass-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust padding to change button size */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    width: 25%;
+}
+
+  
+  /* Additional CSS styles for hover effect */
+  .join-onlineclass-button:hover
+   {
+     background-color: #333; 
+   }
+  
